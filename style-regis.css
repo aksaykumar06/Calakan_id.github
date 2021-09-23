@@ -1,0 +1,83 @@
+
+body{
+	background-color: rgb(100,105,110);
+	margin: 0px;
+	padding: 0px;
+	font-family: sans-serif;
+	background: linear-gradient(rgba(0,1,0,0.5), rgba(0,0,1,0.5))
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+.main{
+	position: relative;
+	border-radius: 10px;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,50%);
+	width: 400px;
+	background: #fff;
+	padding: 40px;
+	box-sizing: border-box;
+	border: 1px solid rgba(0,0,0,.1);
+	box-shadow: 0 5px 10px rgba(0,0,0.2);
+}
+
+.main h2{
+	margin: 0 40px;
+	padding: 15px;
+	color: #0092e6;
+	text-transform: uppercase;
+	text-align: center;
+	font-weight: bold;
+}
+
+.main .border{
+	width: 200px;
+	height: 3px;
+	background: #00b8e6;
+	margin: 10px auto;
+}
+
+.main input{
+	padding: 10px 0;
+	margin-bottom: 30px;
+}
+
+.main textarea{
+	height: 80px;
+	padding: 10px 0;
+	margin-bottom: 40px;
+}
+
+.main input,
+.main textarea{
+	width: 100%;
+	box-sizing: border-box;
+	box-shadow: none;
+	outline: none;
+	border: none;
+	border-bottom: 3px solid #999;
+}
+
+.main input{
+	margin-bottom: 20px;
+}
+
+.main input[type="submit"]{
+	border-bottom: none;
+	cursor: pointer;
+	background: #0092e6;
+	color: #fff;
+	margin-bottom: 0;
+	text-transform: uppercase;
+}
+
+.main form div{
+	position: relative;
+}
+
+.main input[type="submit"]:hover{
+	background: #00b8e6;
+}
